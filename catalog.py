@@ -42,5 +42,7 @@ TOOLS=[
 ('web3','Web3 concepts','https://ethereum.org/en/web3/','ideas','What do user ownership and permissionless applications propose?','用户所有权与无需许可应用提出什么理念？','An architectural aspiration does not establish that every deployed application is decentralized.','架构愿景不证明每个已部署应用都去中心化。'),
 ('dao','DAO overview','https://ethereum.org/en/dao/','ideas','How can a collective govern shared contracts or a treasury?','集体如何治理共享合约或金库？','Token voting, delegation, admin keys and off-chain decisions can concentrate power.','代币投票、委托、管理员密钥及链下决策可能集中权力。'),
 ('bis-money','BIS · monetary-system perspective','https://www.bis.org/publ/arpdf/ar2025e3.htm','ideas','How does an institutional view evaluate money and tokenization?','机构视角如何评价货币与代币化？','Read as one explicit institutional perspective, alongside permissionless-system proposals.','作为明确的机构视角，与无需许可系统提案对照阅读。')]
+from scaling_sources import TOOLS as SCALING_TOOLS
+TOOLS.extend(SCALING_TOOLS)
 SOURCES={ident:(name,name,url,group) for ident,name,url,group,*_ in TOOLS}
 GROUPS={'bitcoin':('Bitcoin','Bitcoin'),'ethereum':('Ethereum & consensus','Ethereum 与共识'),'standards':('Protocol standards','协议标准'),'contracts':('Solidity & contracts','Solidity 与合约'),'tools':('Development tools','开发工具'),'stablecoins':('Stablecoins & issuers','稳定币与发行方'),'defi':('DeFi','DeFi'),'security':('Security','安全'),'scaling':('Scaling & bridges','扩容与桥'),'ideas':('Money, governance & Web3','货币、治理与 Web3')}

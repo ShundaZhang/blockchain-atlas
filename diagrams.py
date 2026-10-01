@@ -3,6 +3,9 @@ from diagram_core import node,arrow,flow,frame
 from catalog import SOURCES
 
 def diagram(ident,lang):
+    if ident in ('scaling','scale-proofs','ln-channel','ln-htlc','scale-updates'):
+        from scaling_diagrams import diagram as scaling_diagram
+        return scaling_diagram(ident,lang)
     t=lambda en,zh:zh if lang=='zh' else en
     data={
     'state':('An ordered transition is replayed by many nodes','多个节点重放有序状态转换','eth-blocks',[

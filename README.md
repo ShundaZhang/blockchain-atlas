@@ -11,8 +11,10 @@ Independent bilingual learning website, default English, with an EN / 中文 swi
 - Decentralized money, monetary authority, censorship resistance, Web3, ownership and DAO governance
 - Solidity, smart contracts and a complete fixed-supply ERC-20 issuance example
 - Stablecoins including USD₮ / USDT, reserves, issuer powers and cross-chain identity
-- DeFi AMMs/lending, oracles, rollups, bridges, applications and security
-- 17 original bilingual diagrams, 3 local browser labs and 2 runnable contract examples
+- DeFi AMMs/lending, oracles, applications and security
+- One integrated Scaling & Cross-chain chapter: Ethereum L2/fault and validity proofs, blobs/PeerDAS, implementation paths, Bitcoin Lightning channels/HTLCs/liquidity/recovery and a local Polar regtest guide
+- Bridges, cross-chain intents, ERC-4337/EIP-7702 smart wallets, BOLT 12/splicing and Taproot Assets, with a dated deployed-versus-planned Web3 snapshot
+- 21 original bilingual diagrams, 3 local browser labs and 2 runnable contract examples
 - Source-linked lessons and a searchable primary-resource directory
 
 No live prices, wallet connection, token sale or real-fund transaction is included. Browser labs do not upload or persist exercise inputs; only the selected language is stored locally. The hash lab is a SHA-256 teaching model, not Bitcoin/Ethereum consensus. The AMM lab is a floating-point v2-style illustration.

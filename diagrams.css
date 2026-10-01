@@ -20,3 +20,6 @@
 .viz-exchange>.viz-two{gap:0}.viz-exchange>.viz-two>.viz-node{margin:0 12px}.viz-packet{padding-left:0;padding-right:0}.viz-packet-label{margin:0 -25%;padding:0 4px;background:#f9fcfb}
 @media(max-width:600px){.viz-exchange>.viz-two{gap:0}.viz-exchange>.viz-two>.viz-node{margin:0 6px}.viz-packet{margin-left:25%;margin-right:25%}}
 .viz-path-list{display:grid;gap:12px;margin-top:18px}.viz-evidence{max-width:660px;margin:0 auto}.viz-evidence>.viz-arrow{min-height:40px}.viz-evidence>.viz-node{text-align:center}
+
+/* Public teaching balances, labelled in text as well as color. */
+.channel-balance{display:flex;width:100%;min-height:76px;border-radius:8px;overflow:hidden;border:1px solid #829caf}.channel-balance>span{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#eaf1f7;color:#22374a;text-align:center;font:600 12px/1.7 ui-monospace,monospace;min-width:0;overflow-wrap:anywhere;padding:9px 3px}.channel-balance>span+span{background:#f5e3bd;border-left:1px solid #b99061}.knowledge-viz .channel-balance{box-sizing:border-box}

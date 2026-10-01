@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Build a bilingual OSINT and GEO learning atlas with Python standard library."""
+"""Build a bilingual blockchain learning atlas with Python standard library."""
 from pathlib import Path
 from html import escape
 from diagrams import diagram
